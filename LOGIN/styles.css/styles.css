@@ -1,0 +1,77 @@
+/*ESTILOS GENERALES*/
+
+*{font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;}
+    
+    /*colores de texto*/
+
+.text-blue{
+    color: rgb(90, 90, 216);
+}
+/*colores de fondo*/
+
+.bg-gray{
+    background-image: url(../styles.css/img/fondo.jpg);
+    background-size: cover;
+
+    background-position-y: 55%;
+}
+    
+   
+
+    .bg-white{
+    background-color: white;}
+/*contenedor de formulario*/
+    .form-container{
+        padding: 4rem ;
+        width: 30%;
+        height: 20rem;
+        /*border es para las medidas y color de borde*/
+        border: solid 0.1rem grey;
+        border-radius: 0.4rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: -11px 11px 10px rgb(0, 0, 0);
+    }
+    .input-container{
+       margin-top: 1rem;
+       display: flex;
+       flex-direction:column;
+    }
+    .input-container input{
+        border-radius: 0.4rem;
+        border: solid 0.1rem grey;
+        margin-top: 0.2rem;
+    }
+
+     .check-container{
+         margin-top:0.7rem ;
+     }
+     .check-container input{
+         margin-right: 0,3rem;
+     }
+
+     .btn-container{
+         margin-top: 2rem;
+         display: flex;
+         justify-content: center;
+     }
+
+     .btn{ 
+         padding: 0.7rem;
+         background-color: aquamarine;
+         border: 0px;
+         border-radius: 0.3rem;
+
+     }
+     .btn:hover{
+         background-color: blueviolet;
+     }
+
+     .screen-form{
+         display: flex;
+         justify-content: center;
+         margin-top: 7%;
+     }
+
